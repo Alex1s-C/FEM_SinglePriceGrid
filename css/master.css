@@ -1,0 +1,86 @@
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.header {
+  margin-top: 5%;
+  padding: 50px 20% 50px 5%;
+  text-align: left;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  background-color: white;
+  line-height: 2;
+}
+
+.title {
+  color: #499a99;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  color: #c3de10;
+}
+
+.headerText {
+  color: hsl(218, 22%, 67%);
+}
+
+.firstBlock {
+  background-color: #4bb3b2;
+  padding: 50px 10% 50px 5%;
+  text-align: left;
+  border-bottom-left-radius: 3%;
+  color: hsl(204, 43%, 93%);
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.pMonth {
+  color: #74c5cc;
+}
+
+.customBtn {
+  width: 100%;
+  background-color: #c3de10;
+  border: none;
+  padding: 13px;
+  font-size: 1.5rem;
+  margin-top: 6%;
+}
+
+.customBtn:hover {
+  background-color: #d9f139;
+}
+
+.secondBlock {
+  background-color: #60bebe;
+  padding: 50px 10% 50px 5%;
+  text-align: left;
+  border-bottom-right-radius: 3%;
+  color: hsl(204, 43%, 93%);
+}
+
+.secondText {
+  padding: 0 25% 5% 0;
+}
+
+@media (max-width: 800px) {
+  .firstBlock, .secondBlock {
+    border-radius: 0;
+  }
+
+  .secondBlock {
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
+}
